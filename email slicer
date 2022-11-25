@@ -1,0 +1,18 @@
+print("\nwelcome")
+print("\U0001f600")
+i="yes"
+while i=="yes":
+    email = input("Enter Your Email: ").strip()
+    username = email[:email.index("@")]
+    domain = email[email.index("@")+1:]
+    domain = domain.upper()
+    print("username:",username)
+    print("domain:",domain)
+    print("\U0001F604")
+    i=input("want to continue  (yes/no):")
+if i=="no":
+    print("Thank You")
+    print("\U0001F636")
+else:
+    print("please enter a vallid responce")
+    print("\U0001F62A")
